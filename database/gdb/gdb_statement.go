@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gdb
 
@@ -10,8 +10,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/os/gtime"
+	"github.com/xhyonline/gf16/errors/gerror"
+	"github.com/xhyonline/gf16/os/gtime"
 )
 
 // Stmt is a prepared statement.
@@ -138,8 +138,8 @@ func (s *Stmt) Query(args ...interface{}) (*sql.Rows, error) {
 //
 // Example usage:
 //
-//  var name string
-//  err := nameByUseridStmt.QueryRow(id).Scan(&name)
+//	var name string
+//	err := nameByUseridStmt.QueryRow(id).Scan(&name)
 func (s *Stmt) QueryRow(args ...interface{}) *sql.Row {
 	return s.QueryRowContext(context.Background(), args...)
 }

@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gfile_test
 
 import (
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/debug/gdebug"
+	"github.com/xhyonline/gf16/container/garray"
+	"github.com/xhyonline/gf16/debug/gdebug"
 	"testing"
 
-	"github.com/gogf/gf/os/gfile"
+	"github.com/xhyonline/gf16/os/gfile"
 
-	"github.com/gogf/gf/test/gtest"
+	"github.com/xhyonline/gf16/test/gtest"
 )
 
 func Test_ScanDir(t *testing.T) {

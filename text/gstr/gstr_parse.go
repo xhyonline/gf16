@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gstr
 
@@ -22,7 +22,6 @@ import (
 // v[][]=m&v[][]=n     -> map[v:[map[]]] // Currently does not support nested slice.
 // v=m&v[a]=n          -> error
 // a .[[b=c            -> map[a___[b:c]
-//
 func Parse(s string) (result map[string]interface{}, err error) {
 	if s == "" {
 		return nil, nil

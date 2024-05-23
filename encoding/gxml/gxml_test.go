@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gxml_test
 
@@ -11,10 +11,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gogf/gf/encoding/gcharset"
-	"github.com/gogf/gf/encoding/gparser"
-	"github.com/gogf/gf/encoding/gxml"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/xhyonline/gf16/encoding/gcharset"
+	"github.com/xhyonline/gf16/encoding/gparser"
+	"github.com/xhyonline/gf16/encoding/gxml"
+	"github.com/xhyonline/gf16/test/gtest"
 )
 
 var testData = []struct {
@@ -55,7 +55,7 @@ func buildXml(charset string, str string) (string, string) {
 	return srcXml, dstXml
 }
 
-//测试XML中字符集的转换
+// 测试XML中字符集的转换
 func Test_XmlToJson(t *testing.T) {
 	for _, v := range testData {
 		srcXml, dstXml := buildXml(v.otherEncoding, v.utf8)

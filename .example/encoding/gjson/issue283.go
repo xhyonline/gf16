@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/gogf/gf/encoding/gjson"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/glog"
+	"github.com/xhyonline/gf16/encoding/gjson"
+	"github.com/xhyonline/gf16/frame/g"
+	"github.com/xhyonline/gf16/os/glog"
 )
 
 type GameUser struct {

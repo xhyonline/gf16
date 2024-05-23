@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/encoding/gcharset"
+	"github.com/xhyonline/gf16/encoding/gcharset"
 )
 
 func main() {

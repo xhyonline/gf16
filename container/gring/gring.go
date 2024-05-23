@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 // Package gring provides a concurrent-safe/unsafe ring(circular lists).
 package gring
@@ -10,8 +10,8 @@ package gring
 import (
 	"container/ring"
 
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/internal/rwmutex"
+	"github.com/xhyonline/gf16/container/gtype"
+	"github.com/xhyonline/gf16/internal/rwmutex"
 )
 
 // Ring is a struct of ring structure.
@@ -141,7 +141,6 @@ func (r *Ring) Next() *Ring {
 // them creates a single ring with the elements of s inserted
 // after r. The result points to the element following the
 // last element of s after insertion.
-//
 func (r *Ring) Link(s *Ring) *Ring {
 	r.mu.Lock()
 	s.mu.Lock()
@@ -156,7 +155,6 @@ func (r *Ring) Link(s *Ring) *Ring {
 // Unlink removes n % r.Len() elements from the ring r, starting
 // at r.Next(). If n % r.Len() == 0, r remains unchanged.
 // The result is the removed subring. r must not be empty.
-//
 func (r *Ring) Unlink(n int) *Ring {
 	r.mu.Lock()
 	r.ring = r.ring.Unlink(n)

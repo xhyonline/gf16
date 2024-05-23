@@ -2,15 +2,15 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gcron_test
 
 import (
 	"time"
 
-	"github.com/gogf/gf/os/gcron"
-	"github.com/gogf/gf/os/glog"
+	"github.com/xhyonline/gf16/os/gcron"
+	"github.com/xhyonline/gf16/os/glog"
 )
 
 func Example_cronAddSingleton() {

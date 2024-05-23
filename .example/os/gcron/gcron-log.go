@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/gogf/gf/os/gcron"
-	"github.com/gogf/gf/os/glog"
+	"github.com/xhyonline/gf16/os/gcron"
+	"github.com/xhyonline/gf16/os/glog"
 )
 
 func main() {

@@ -2,20 +2,20 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gconv
 
 import (
 	"fmt"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/empty"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/internal/structs"
+	"github.com/xhyonline/gf16/errors/gerror"
+	"github.com/xhyonline/gf16/internal/empty"
+	"github.com/xhyonline/gf16/internal/json"
+	"github.com/xhyonline/gf16/internal/structs"
 	"reflect"
 	"strings"
 
-	"github.com/gogf/gf/internal/utils"
+	"github.com/xhyonline/gf16/internal/utils"
 )
 
 // Struct maps the params key-value pairs to the corresponding struct object's attributes.
@@ -23,14 +23,14 @@ import (
 // custom key name and the attribute name(case sensitive).
 //
 // Note:
-// 1. The `params` can be any type of map/struct, usually a map.
-// 2. The `pointer` should be type of *struct/**struct, which is a pointer to struct object
-//    or struct pointer.
-// 3. Only the public attributes of struct object can be mapped.
-// 4. If `params` is a map, the key of the map `params` can be lowercase.
-//    It will automatically convert the first letter of the key to uppercase
-//    in mapping procedure to do the matching.
-//    It ignores the map key, if it does not match.
+//  1. The `params` can be any type of map/struct, usually a map.
+//  2. The `pointer` should be type of *struct/**struct, which is a pointer to struct object
+//     or struct pointer.
+//  3. Only the public attributes of struct object can be mapped.
+//  4. If `params` is a map, the key of the map `params` can be lowercase.
+//     It will automatically convert the first letter of the key to uppercase
+//     in mapping procedure to do the matching.
+//     It ignores the map key, if it does not match.
 func Struct(params interface{}, pointer interface{}, mapping ...map[string]string) (err error) {
 	var keyToAttributeNameMapping map[string]string
 	if len(mapping) > 0 {

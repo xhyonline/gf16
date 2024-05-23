@@ -2,17 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gconv
 
 import (
-	"github.com/gogf/gf/internal/json"
+	"github.com/xhyonline/gf16/internal/json"
 	"reflect"
 	"strings"
 
-	"github.com/gogf/gf/internal/empty"
-	"github.com/gogf/gf/internal/utils"
+	"github.com/xhyonline/gf16/internal/empty"
+	"github.com/xhyonline/gf16/internal/utils"
 )
 
 // Map converts any variable `value` to map[string]interface{}. If the parameter `value` is not a

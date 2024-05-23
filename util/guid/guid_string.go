@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package guid
 
 import (
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/encoding/ghash"
-	"github.com/gogf/gf/net/gipv4"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/grand"
+	"github.com/xhyonline/gf16/container/gtype"
+	"github.com/xhyonline/gf16/encoding/ghash"
+	"github.com/xhyonline/gf16/net/gipv4"
+	"github.com/xhyonline/gf16/util/gconv"
+	"github.com/xhyonline/gf16/util/grand"
 	"os"
 	"strconv"
 	"time"
@@ -62,9 +62,9 @@ func init() {
 // 2. CustomData: Data(7/14) + TimestampNano(12) + Sequence(3) + RandomString(3/10)
 //
 // Note that：
-// 1. The returned length is fixed to 32 bytes for performance purpose.
-// 2. The custom parameter `data` composed should have unique attribute in your
-//    business situation.
+//  1. The returned length is fixed to 32 bytes for performance purpose.
+//  2. The custom parameter `data` composed should have unique attribute in your
+//     business situation.
 func S(data ...[]byte) string {
 	var (
 		b       = make([]byte, 32)

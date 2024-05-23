@@ -2,24 +2,24 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 //
 
 package gcmd
 
 import (
 	"fmt"
-	"github.com/gogf/gf/internal/json"
+	"github.com/xhyonline/gf16/internal/json"
 	"os"
 	"strings"
 
-	"github.com/gogf/gf/text/gstr"
+	"github.com/xhyonline/gf16/text/gstr"
 
 	"errors"
 
-	"github.com/gogf/gf/container/gvar"
+	"github.com/xhyonline/gf16/container/gvar"
 
-	"github.com/gogf/gf/text/gregex"
+	"github.com/xhyonline/gf16/text/gregex"
 )
 
 // Parser for arguments.

@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gcache
 
@@ -11,11 +11,11 @@ import (
 	"math"
 	"time"
 
-	"github.com/gogf/gf/container/glist"
-	"github.com/gogf/gf/container/gset"
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/os/gtimer"
+	"github.com/xhyonline/gf16/container/glist"
+	"github.com/xhyonline/gf16/container/gset"
+	"github.com/xhyonline/gf16/container/gtype"
+	"github.com/xhyonline/gf16/os/gtime"
+	"github.com/xhyonline/gf16/os/gtimer"
 )
 
 // Internal cache object.
@@ -341,9 +341,9 @@ func (c *adapterMemory) makeExpireKey(expire int64) int64 {
 }
 
 // syncEventAndClearExpired does the asynchronous task loop:
-// 1. Asynchronously process the data in the event list,
-//    and synchronize the results to the <expireTimes> and <expireSets> properties.
-// 2. Clean up the expired key-value pair data.
+//  1. Asynchronously process the data in the event list,
+//     and synchronize the results to the <expireTimes> and <expireSets> properties.
+//  2. Clean up the expired key-value pair data.
 func (c *adapterMemory) syncEventAndClearExpired() {
 	if c.closed.Val() {
 		gtimer.Exit()

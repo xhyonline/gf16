@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/gogf/gf/encoding/gjson"
+	"github.com/xhyonline/gf16/encoding/gjson"
 )
 
 func main() {

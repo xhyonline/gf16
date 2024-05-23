@@ -3,11 +3,11 @@ package main
 import (
 	"time"
 
-	"github.com/gogf/gf/.example/net/gtcp/pkg_operations/common/funcs"
-	"github.com/gogf/gf/.example/net/gtcp/pkg_operations/common/types"
-	"github.com/gogf/gf/net/gtcp"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gtimer"
+	"github.com/xhyonline/gf16/.example/net/gtcp/pkg_operations/common/funcs"
+	"github.com/xhyonline/gf16/.example/net/gtcp/pkg_operations/common/types"
+	"github.com/xhyonline/gf16/net/gtcp"
+	"github.com/xhyonline/gf16/os/glog"
+	"github.com/xhyonline/gf16/os/gtimer"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package gbase64
 import (
 	"fmt"
 
-	"github.com/gogf/gf/encoding/gbase64"
+	"github.com/xhyonline/gf16/encoding/gbase64"
 )
 
 func main() {

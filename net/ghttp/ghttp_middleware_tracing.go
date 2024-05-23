@@ -2,18 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package ghttp
 
 import (
 	"fmt"
-	"github.com/gogf/gf"
-	"github.com/gogf/gf/internal/utils"
-	"github.com/gogf/gf/net/ghttp/internal/client"
-	"github.com/gogf/gf/net/ghttp/internal/httputil"
-	"github.com/gogf/gf/net/gtrace"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/xhyonline/gf16/internal/utils"
+	"github.com/xhyonline/gf16/net/ghttp/internal/client"
+	"github.com/xhyonline/gf16/net/ghttp/internal/httputil"
+	"github.com/xhyonline/gf16/net/gtrace"
+	"github.com/xhyonline/gf16/text/gstr"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
@@ -24,7 +23,7 @@ import (
 )
 
 const (
-	tracingInstrumentName           = "github.com/gogf/gf/net/ghttp.Server"
+	tracingInstrumentName           = "github.com/xhyonline/gf16/net/ghttp.Server"
 	tracingEventHttpRequest         = "http.request"
 	tracingEventHttpRequestHeaders  = "http.request.headers"
 	tracingEventHttpRequestBaggage  = "http.request.baggage"

@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 // go test *.go -bench=".*"
 
@@ -11,9 +11,9 @@ package gcrc32_test
 import (
 	"testing"
 
-	"github.com/gogf/gf/crypto/gcrc32"
-	"github.com/gogf/gf/crypto/gmd5"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/xhyonline/gf16/crypto/gcrc32"
+	"github.com/xhyonline/gf16/crypto/gmd5"
+	"github.com/xhyonline/gf16/test/gtest"
 )
 
 func TestEncrypt(t *testing.T) {

@@ -2,15 +2,15 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 // Package intlog provides internal logging for GoFrame development usage only.
 package intlog
 
 import (
 	"fmt"
-	"github.com/gogf/gf/debug/gdebug"
-	"github.com/gogf/gf/internal/utils"
+	"github.com/xhyonline/gf16/debug/gdebug"
+	"github.com/xhyonline/gf16/internal/utils"
 	"path/filepath"
 	"time"
 )

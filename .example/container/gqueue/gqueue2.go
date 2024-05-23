@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gogf/gf/container/gqueue"
-	"github.com/gogf/gf/os/gtimer"
+	"github.com/xhyonline/gf16/container/gqueue"
+	"github.com/xhyonline/gf16/os/gtimer"
 )
 
 func main() {

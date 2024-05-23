@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 // Package gcfg provides reading, caching and managing for configuration.
 package gcfg
 
 import (
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gcmd"
+	"github.com/xhyonline/gf16/container/garray"
+	"github.com/xhyonline/gf16/container/gmap"
+	"github.com/xhyonline/gf16/internal/intlog"
+	"github.com/xhyonline/gf16/os/gcmd"
 )
 
 // Config is the configuration manager.

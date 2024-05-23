@@ -2,17 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gredis
 
 import (
 	"context"
 	"fmt"
-	"github.com/gogf/gf"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/net/gtrace"
-	"github.com/gogf/gf/os/gcmd"
+	"github.com/xhyonline/gf16/internal/json"
+	"github.com/xhyonline/gf16/net/gtrace"
+	"github.com/xhyonline/gf16/os/gcmd"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
@@ -28,7 +27,7 @@ type tracingItem struct {
 }
 
 const (
-	tracingInstrumentName               = "github.com/gogf/gf/database/gredis"
+	tracingInstrumentName               = "github.com/xhyonline/gf16/database/gredis"
 	tracingAttrRedisHost                = "redis.host"
 	tracingAttrRedisPort                = "redis.port"
 	tracingAttrRedisDb                  = "redis.db"

@@ -2,14 +2,14 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gproc
 
 import (
 	"os"
 
-	"github.com/gogf/gf/container/gmap"
+	"github.com/xhyonline/gf16/container/gmap"
 )
 
 // Manager is a process manager maintaining multiple processes.

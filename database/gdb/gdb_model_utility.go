@@ -2,19 +2,19 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gdb
 
 import (
 	"time"
 
-	"github.com/gogf/gf/container/gset"
-	"github.com/gogf/gf/internal/empty"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/xhyonline/gf16/container/gset"
+	"github.com/xhyonline/gf16/internal/empty"
+	"github.com/xhyonline/gf16/os/gtime"
+	"github.com/xhyonline/gf16/text/gregex"
+	"github.com/xhyonline/gf16/text/gstr"
+	"github.com/xhyonline/gf16/util/gutil"
 )
 
 // TableFields retrieves and returns the fields information of specified table of current

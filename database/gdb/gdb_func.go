@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gdb
 
@@ -14,19 +14,19 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/empty"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/internal/utils"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/util/gmeta"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/xhyonline/gf16/errors/gerror"
+	"github.com/xhyonline/gf16/internal/empty"
+	"github.com/xhyonline/gf16/internal/json"
+	"github.com/xhyonline/gf16/internal/utils"
+	"github.com/xhyonline/gf16/os/gtime"
+	"github.com/xhyonline/gf16/util/gmeta"
+	"github.com/xhyonline/gf16/util/gutil"
 
-	"github.com/gogf/gf/internal/structs"
+	"github.com/xhyonline/gf16/internal/structs"
 
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/xhyonline/gf16/text/gregex"
+	"github.com/xhyonline/gf16/text/gstr"
+	"github.com/xhyonline/gf16/util/gconv"
 )
 
 // apiString is the type assert api for String.
@@ -641,7 +641,7 @@ func formatWhereKeyValue(db DB, buffer *bytes.Buffer, newArgs []interface{}, key
 				} else {
 					// The key is not a regular field name.
 					// Eg: Where(g.Map{"age > 16": nil})
-					// Issue: https://github.com/gogf/gf/issues/765
+					// Issue: https://github.com/xhyonline/gf16/issues/765
 					if empty.IsEmpty(value) {
 						buffer.WriteString(quotedKey)
 						break

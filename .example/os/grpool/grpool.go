@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gogf/gf/os/grpool"
-	"github.com/gogf/gf/os/gtime"
+	"github.com/xhyonline/gf16/os/grpool"
+	"github.com/xhyonline/gf16/os/gtime"
 )
 
 func main() {

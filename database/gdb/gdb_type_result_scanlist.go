@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gdb
 
 import (
 	"database/sql"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/xhyonline/gf16/errors/gerror"
+	"github.com/xhyonline/gf16/text/gstr"
+	"github.com/xhyonline/gf16/util/gconv"
+	"github.com/xhyonline/gf16/util/gutil"
 	"reflect"
 )
 
@@ -19,11 +19,12 @@ import (
 // Note that the parameter `listPointer` should be type of *[]struct/*[]*struct.
 // Usage example:
 //
-// type Entity struct {
-// 	   User       *EntityUser
-// 	   UserDetail *EntityUserDetail
-//	   UserScores []*EntityUserScores
-// }
+//	type Entity struct {
+//		   User       *EntityUser
+//		   UserDetail *EntityUserDetail
+//		   UserScores []*EntityUserScores
+//	}
+//
 // var users []*Entity
 // or
 // var users []Entity

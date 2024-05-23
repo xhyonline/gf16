@@ -2,17 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 // Package ghttp provides powerful http server and simple client implements.
 package ghttp
 
 import (
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/os/gcache"
-	"github.com/gogf/gf/os/gsession"
 	"github.com/gorilla/websocket"
+	"github.com/xhyonline/gf16/container/gmap"
+	"github.com/xhyonline/gf16/container/gtype"
+	"github.com/xhyonline/gf16/os/gcache"
+	"github.com/xhyonline/gf16/os/gsession"
 	"net/http"
 	"reflect"
 	"time"

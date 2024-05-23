@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/encoding/gbinary"
+	"github.com/xhyonline/gf16/encoding/gbinary"
 )
 
 func main() {

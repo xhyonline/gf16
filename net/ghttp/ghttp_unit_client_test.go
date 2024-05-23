@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package ghttp_test
 
@@ -15,14 +15,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/debug/gdebug"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/util/guid"
+	"github.com/xhyonline/gf16/debug/gdebug"
+	"github.com/xhyonline/gf16/errors/gerror"
+	"github.com/xhyonline/gf16/os/gfile"
+	"github.com/xhyonline/gf16/util/guid"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/net/ghttp"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/xhyonline/gf16/frame/g"
+	"github.com/xhyonline/gf16/net/ghttp"
+	"github.com/xhyonline/gf16/test/gtest"
 )
 
 func Test_Client_Basic(t *testing.T) {

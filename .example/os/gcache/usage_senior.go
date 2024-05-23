@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gogf/gf/os/gcache"
+	"github.com/xhyonline/gf16/os/gcache"
 )
 
 func main() {

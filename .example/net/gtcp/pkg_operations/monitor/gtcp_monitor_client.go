@@ -3,11 +3,11 @@ package main
 import (
 	"encoding/json"
 
-	"github.com/gogf/gf/.example/net/gtcp/pkg_operations/monitor/types"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/net/gtcp"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gtime"
+	"github.com/xhyonline/gf16/.example/net/gtcp/pkg_operations/monitor/types"
+	"github.com/xhyonline/gf16/frame/g"
+	"github.com/xhyonline/gf16/net/gtcp"
+	"github.com/xhyonline/gf16/os/glog"
+	"github.com/xhyonline/gf16/os/gtime"
 )
 
 func main() {

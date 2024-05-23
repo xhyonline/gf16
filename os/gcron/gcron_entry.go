@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gcron
 
@@ -11,10 +11,10 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gtimer"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/xhyonline/gf16/container/gtype"
+	"github.com/xhyonline/gf16/os/glog"
+	"github.com/xhyonline/gf16/os/gtimer"
+	"github.com/xhyonline/gf16/util/gconv"
 )
 
 // Entry is timing task entry.

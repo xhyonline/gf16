@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gjson
 
@@ -12,16 +12,16 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/gogf/gf/internal/json"
+	"github.com/xhyonline/gf16/internal/json"
 
-	"github.com/gogf/gf/encoding/gini"
-	"github.com/gogf/gf/encoding/gtoml"
-	"github.com/gogf/gf/encoding/gxml"
-	"github.com/gogf/gf/encoding/gyaml"
-	"github.com/gogf/gf/internal/rwmutex"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/xhyonline/gf16/encoding/gini"
+	"github.com/xhyonline/gf16/encoding/gtoml"
+	"github.com/xhyonline/gf16/encoding/gxml"
+	"github.com/xhyonline/gf16/encoding/gyaml"
+	"github.com/xhyonline/gf16/internal/rwmutex"
+	"github.com/xhyonline/gf16/os/gfile"
+	"github.com/xhyonline/gf16/text/gregex"
+	"github.com/xhyonline/gf16/util/gconv"
 )
 
 // New creates a Json object with any variable type of <data>, but <data> should be a map

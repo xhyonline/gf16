@@ -2,28 +2,28 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package ghttp
 
 import (
 	"crypto/tls"
 	"fmt"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gres"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/xhyonline/gf16/internal/intlog"
+	"github.com/xhyonline/gf16/os/gres"
+	"github.com/xhyonline/gf16/util/gutil"
 	"net/http"
 	"strconv"
 	"time"
 
-	"github.com/gogf/gf/util/gconv"
+	"github.com/xhyonline/gf16/util/gconv"
 
-	"github.com/gogf/gf/os/gsession"
+	"github.com/xhyonline/gf16/os/gsession"
 
-	"github.com/gogf/gf/os/gview"
+	"github.com/xhyonline/gf16/os/gview"
 
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/glog"
+	"github.com/xhyonline/gf16/os/gfile"
+	"github.com/xhyonline/gf16/os/glog"
 )
 
 const (

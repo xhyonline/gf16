@@ -2,14 +2,14 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package ghttp_test
 
 import (
 	"fmt"
 
-	"github.com/gogf/gf/frame/g"
+	"github.com/xhyonline/gf16/frame/g"
 )
 
 func ExampleClient_Get() {

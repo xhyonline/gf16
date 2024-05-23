@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/gogf/gf/os/gtime"
+	"github.com/xhyonline/gf16/os/gtime"
 )
 
 // int 随机
@@ -36,7 +36,7 @@ func a2() {
 	fmt.Printf("\n")
 }
 
-//真随机 -- 用标准库封装好的
+// 真随机 -- 用标准库封装好的
 func a3() {
 	b := make([]byte, 16)
 	// On Unix-like systems, Reader reads from /dev/urandom.
@@ -49,7 +49,7 @@ func a3() {
 	fmt.Println("[a3] b:", b)
 }
 
-//真随机 -- 我们直接调真随机文件生成了事。 但注意，它是阻塞式的。
+// 真随机 -- 我们直接调真随机文件生成了事。 但注意，它是阻塞式的。
 func a4() {
 	f, err := os.Open("/dev/random")
 	if err != nil {

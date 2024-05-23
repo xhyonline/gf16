@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package ghttp
 
 import (
 	"errors"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/util/grand"
+	"github.com/xhyonline/gf16/internal/intlog"
+	"github.com/xhyonline/gf16/os/gfile"
+	"github.com/xhyonline/gf16/os/gtime"
+	"github.com/xhyonline/gf16/util/grand"
 	"io"
 	"mime/multipart"
 	"strconv"

@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gcfg
 
@@ -10,19 +10,19 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/encoding/gjson"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gcmd"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gfsnotify"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gres"
-	"github.com/gogf/gf/os/gspath"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gmode"
+	"github.com/xhyonline/gf16/container/garray"
+	"github.com/xhyonline/gf16/container/gmap"
+	"github.com/xhyonline/gf16/encoding/gjson"
+	"github.com/xhyonline/gf16/errors/gerror"
+	"github.com/xhyonline/gf16/internal/intlog"
+	"github.com/xhyonline/gf16/os/gcmd"
+	"github.com/xhyonline/gf16/os/gfile"
+	"github.com/xhyonline/gf16/os/gfsnotify"
+	"github.com/xhyonline/gf16/os/glog"
+	"github.com/xhyonline/gf16/os/gres"
+	"github.com/xhyonline/gf16/os/gspath"
+	"github.com/xhyonline/gf16/text/gstr"
+	"github.com/xhyonline/gf16/util/gmode"
 )
 
 // New returns a new configuration management object.

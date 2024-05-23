@@ -2,9 +2,9 @@ package main
 
 import (
 	"context"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/gvalid"
+	"github.com/xhyonline/gf16/frame/g"
+	"github.com/xhyonline/gf16/util/gconv"
+	"github.com/xhyonline/gf16/util/gvalid"
 )
 
 func main() {

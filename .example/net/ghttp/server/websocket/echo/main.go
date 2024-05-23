@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/net/ghttp"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/glog"
+	"github.com/xhyonline/gf16/frame/g"
+	"github.com/xhyonline/gf16/net/ghttp"
+	"github.com/xhyonline/gf16/os/gfile"
+	"github.com/xhyonline/gf16/os/glog"
 )
 
 func main() {

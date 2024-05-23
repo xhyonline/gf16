@@ -2,15 +2,15 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gsession
 
 import (
-	"github.com/gogf/gf/container/gmap"
+	"github.com/xhyonline/gf16/container/gmap"
 	"time"
 
-	"github.com/gogf/gf/os/gcache"
+	"github.com/xhyonline/gf16/os/gcache"
 )
 
 // Manager for sessions.

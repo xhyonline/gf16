@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gjson_test
 
 import (
 	"bytes"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/test/gtest"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/xhyonline/gf16/frame/g"
+	"github.com/xhyonline/gf16/test/gtest"
+	"github.com/xhyonline/gf16/text/gstr"
 	"testing"
 
-	"github.com/gogf/gf/encoding/gjson"
+	"github.com/xhyonline/gf16/encoding/gjson"
 )
 
 func Test_Set1(t *testing.T) {

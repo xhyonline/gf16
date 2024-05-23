@@ -2,14 +2,14 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gdb
 
 import (
 	"fmt"
 
-	"github.com/gogf/gf/text/gstr"
+	"github.com/xhyonline/gf16/text/gstr"
 )
 
 // isSubQuery checks and returns whether given string a sub-query sql string.
@@ -56,11 +56,13 @@ func (m *Model) InnerJoin(table ...string) *Model {
 // doJoin does "LEFT/RIGHT/INNER JOIN ... ON ..." statement on the model.
 // The parameter `table` can be joined table and its joined condition,
 // and also with its alias name, like:
-//     Model("user").InnerJoin("user_detail", "user_detail.uid=user.uid")
-//     Model("user", "u").InnerJoin("user_detail", "ud", "ud.uid=u.uid")
-//     Model("user", "u").InnerJoin("SELECT xxx FROM xxx AS a", "a.uid=u.uid")
+//
+//	Model("user").InnerJoin("user_detail", "user_detail.uid=user.uid")
+//	Model("user", "u").InnerJoin("user_detail", "ud", "ud.uid=u.uid")
+//	Model("user", "u").InnerJoin("SELECT xxx FROM xxx AS a", "a.uid=u.uid")
+//
 // Related issues:
-// https://github.com/gogf/gf/issues/1024
+// https://github.com/xhyonline/gf16/issues/1024
 func (m *Model) doJoin(operator string, table ...string) *Model {
 	var (
 		model   = m.getModel()

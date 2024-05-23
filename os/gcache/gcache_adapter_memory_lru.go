@@ -2,17 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gcache
 
 import (
 	"time"
 
-	"github.com/gogf/gf/container/glist"
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/os/gtimer"
+	"github.com/xhyonline/gf16/container/glist"
+	"github.com/xhyonline/gf16/container/gmap"
+	"github.com/xhyonline/gf16/container/gtype"
+	"github.com/xhyonline/gf16/os/gtimer"
 )
 
 // LRU cache object.

@@ -3,8 +3,8 @@ package main
 import (
 	"errors"
 
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/os/glog"
+	"github.com/xhyonline/gf16/errors/gerror"
+	"github.com/xhyonline/gf16/os/glog"
 )
 
 func MakeError() error {

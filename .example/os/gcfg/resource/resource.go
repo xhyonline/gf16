@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gogf/gf/frame/g"
-	_ "github.com/gogf/gf/os/gres/testdata"
+	"github.com/xhyonline/gf16/frame/g"
+	_ "github.com/xhyonline/gf16/os/gres/testdata"
 )
 
 func main() {

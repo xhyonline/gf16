@@ -3,9 +3,9 @@ package main
 import (
 	"time"
 
-	"github.com/gogf/gf/net/gtcp"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/xhyonline/gf16/net/gtcp"
+	"github.com/xhyonline/gf16/os/glog"
+	"github.com/xhyonline/gf16/util/gconv"
 )
 
 func main() {

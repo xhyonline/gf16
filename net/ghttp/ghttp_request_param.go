@@ -2,23 +2,23 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package ghttp
 
 import (
 	"bytes"
 	"fmt"
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/encoding/gjson"
-	"github.com/gogf/gf/encoding/gurl"
-	"github.com/gogf/gf/encoding/gxml"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/internal/utils"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/gvalid"
+	"github.com/xhyonline/gf16/container/gvar"
+	"github.com/xhyonline/gf16/encoding/gjson"
+	"github.com/xhyonline/gf16/encoding/gurl"
+	"github.com/xhyonline/gf16/encoding/gxml"
+	"github.com/xhyonline/gf16/internal/json"
+	"github.com/xhyonline/gf16/internal/utils"
+	"github.com/xhyonline/gf16/text/gregex"
+	"github.com/xhyonline/gf16/text/gstr"
+	"github.com/xhyonline/gf16/util/gconv"
+	"github.com/xhyonline/gf16/util/gvalid"
 	"io/ioutil"
 	"mime/multipart"
 	"reflect"

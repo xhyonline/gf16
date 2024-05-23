@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package garray
 
@@ -10,13 +10,13 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/internal/json"
+	"github.com/xhyonline/gf16/internal/json"
 	"math"
 	"sort"
 
-	"github.com/gogf/gf/internal/rwmutex"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/grand"
+	"github.com/xhyonline/gf16/internal/rwmutex"
+	"github.com/xhyonline/gf16/util/gconv"
+	"github.com/xhyonline/gf16/util/grand"
 )
 
 // IntArray is a golang int array with rich features.

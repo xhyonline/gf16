@@ -2,20 +2,20 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with gm file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gmap
 
 import (
-	"github.com/gogf/gf/internal/json"
+	"github.com/xhyonline/gf16/internal/json"
 
-	"github.com/gogf/gf/internal/empty"
+	"github.com/xhyonline/gf16/internal/empty"
 
-	"github.com/gogf/gf/util/gconv"
+	"github.com/xhyonline/gf16/util/gconv"
 
-	"github.com/gogf/gf/container/glist"
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/internal/rwmutex"
+	"github.com/xhyonline/gf16/container/glist"
+	"github.com/xhyonline/gf16/container/gvar"
+	"github.com/xhyonline/gf16/internal/rwmutex"
 )
 
 type ListMap struct {

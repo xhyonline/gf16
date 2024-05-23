@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gogf/gf/util/gutil"
+	"github.com/xhyonline/gf16/util/gutil"
 )
 
 func Test(s *interface{}) {

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gogf/gf/net/ghttp"
+	"github.com/xhyonline/gf16/net/ghttp"
 )
 
 func main() {

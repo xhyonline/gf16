@@ -2,14 +2,14 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 // Package genv provides operations for environment variables of system.
 package genv
 
 import (
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/os/gcmd"
+	"github.com/xhyonline/gf16/container/gvar"
+	"github.com/xhyonline/gf16/os/gcmd"
 	"os"
 	"strings"
 )

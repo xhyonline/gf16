@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gdb
 
@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/structs"
-	"github.com/gogf/gf/internal/utils"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/xhyonline/gf16/errors/gerror"
+	"github.com/xhyonline/gf16/internal/structs"
+	"github.com/xhyonline/gf16/internal/utils"
+	"github.com/xhyonline/gf16/text/gregex"
+	"github.com/xhyonline/gf16/text/gstr"
 )
 
 // With creates and returns an ORM model based on meta data of given object.
@@ -22,19 +22,26 @@ import (
 // It can be called multiple times to add one or more objects to model and enable
 // their mode association operations feature.
 // For example, if given struct definition:
-// type User struct {
-//	 gmeta.Meta `orm:"table:user"`
-// 	 Id         int           `json:"id"`
-//	 Name       string        `json:"name"`
-//	 UserDetail *UserDetail   `orm:"with:uid=id"`
-//	 UserScores []*UserScores `orm:"with:uid=id"`
-// }
+//
+//	type User struct {
+//		 gmeta.Meta `orm:"table:user"`
+//		 Id         int           `json:"id"`
+//		 Name       string        `json:"name"`
+//		 UserDetail *UserDetail   `orm:"with:uid=id"`
+//		 UserScores []*UserScores `orm:"with:uid=id"`
+//	}
+//
 // We can enable model association operations on attribute `UserDetail` and `UserScores` by:
-//     db.With(User{}.UserDetail).With(User{}.UserDetail).Scan(xxx)
+//
+//	db.With(User{}.UserDetail).With(User{}.UserDetail).Scan(xxx)
+//
 // Or:
-//     db.With(UserDetail{}).With(UserDetail{}).Scan(xxx)
+//
+//	db.With(UserDetail{}).With(UserDetail{}).Scan(xxx)
+//
 // Or:
-//     db.With(UserDetail{}, UserDetail{}).Scan(xxx)
+//
+//	db.With(UserDetail{}, UserDetail{}).Scan(xxx)
 func (m *Model) With(objects ...interface{}) *Model {
 	model := m.getModel()
 	for _, object := range objects {

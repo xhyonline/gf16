@@ -2,21 +2,21 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gres
 
 import (
 	"fmt"
-	"github.com/gogf/gf/internal/intlog"
+	"github.com/xhyonline/gf16/internal/intlog"
 	"os"
 	"path/filepath"
 	"strings"
 
-	"github.com/gogf/gf/os/gtime"
+	"github.com/xhyonline/gf16/os/gtime"
 
-	"github.com/gogf/gf/container/gtree"
-	"github.com/gogf/gf/os/gfile"
+	"github.com/xhyonline/gf16/container/gtree"
+	"github.com/xhyonline/gf16/os/gfile"
 )
 
 type Resource struct {

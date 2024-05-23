@@ -3,9 +3,9 @@ package main
 import (
 	"time"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/net/ghttp"
-	"github.com/gogf/gf/os/gproc"
+	"github.com/xhyonline/gf16/frame/g"
+	"github.com/xhyonline/gf16/net/ghttp"
+	"github.com/xhyonline/gf16/os/gproc"
 )
 
 func main() {

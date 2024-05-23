@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gi18n
 
@@ -10,20 +10,20 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/internal/intlog"
+	"github.com/xhyonline/gf16/internal/intlog"
 	"strings"
 	"sync"
 
-	"github.com/gogf/gf/os/gfsnotify"
+	"github.com/xhyonline/gf16/os/gfsnotify"
 
-	"github.com/gogf/gf/text/gregex"
+	"github.com/xhyonline/gf16/text/gregex"
 
-	"github.com/gogf/gf/util/gconv"
+	"github.com/xhyonline/gf16/util/gconv"
 
-	"github.com/gogf/gf/encoding/gjson"
+	"github.com/xhyonline/gf16/encoding/gjson"
 
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gres"
+	"github.com/xhyonline/gf16/os/gfile"
+	"github.com/xhyonline/gf16/os/gres"
 )
 
 // Manager for i18n contents, it is concurrent safe, supporting hot reload.

@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package ghttp
 
@@ -12,16 +12,16 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gogf/gf/text/gstr"
+	"github.com/xhyonline/gf16/text/gstr"
 
-	"github.com/gogf/gf/errors/gerror"
+	"github.com/xhyonline/gf16/errors/gerror"
 
-	"github.com/gogf/gf/os/gres"
+	"github.com/xhyonline/gf16/os/gres"
 
-	"github.com/gogf/gf/encoding/ghtml"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gspath"
-	"github.com/gogf/gf/os/gtime"
+	"github.com/xhyonline/gf16/encoding/ghtml"
+	"github.com/xhyonline/gf16/os/gfile"
+	"github.com/xhyonline/gf16/os/gspath"
+	"github.com/xhyonline/gf16/os/gtime"
 )
 
 // ServeHTTP is the default handler for http request.

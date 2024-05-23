@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 // Package gqueue provides dynamic/static concurrent-safe queue.
 //
@@ -15,14 +15,13 @@
 // 3. Support dynamic queue size(unlimited queue size);
 //
 // 4. Blocking when reading data from queue;
-//
 package gqueue
 
 import (
 	"math"
 
-	"github.com/gogf/gf/container/glist"
-	"github.com/gogf/gf/container/gtype"
+	"github.com/xhyonline/gf16/container/glist"
+	"github.com/xhyonline/gf16/container/gtype"
 )
 
 // Queue is a concurrent-safe queue built on doubly linked list and channel.

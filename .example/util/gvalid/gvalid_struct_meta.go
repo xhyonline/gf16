@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/util/gmeta"
+	"github.com/xhyonline/gf16/errors/gerror"
+	"github.com/xhyonline/gf16/frame/g"
+	"github.com/xhyonline/gf16/util/gmeta"
 )
 
 type UserCreateReq struct {

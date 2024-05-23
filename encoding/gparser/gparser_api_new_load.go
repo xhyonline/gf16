@@ -7,7 +7,7 @@
 package gparser
 
 import (
-	"github.com/gogf/gf/encoding/gjson"
+	"github.com/xhyonline/gf16/encoding/gjson"
 )
 
 // New creates a Parser object with any variable type of <data>, but <data> should be a map, struct or

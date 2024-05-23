@@ -2,17 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package client
 
 import (
 	"fmt"
-	"github.com/gogf/gf"
-	"github.com/gogf/gf/internal/utils"
-	"github.com/gogf/gf/net/ghttp/internal/httputil"
-	"github.com/gogf/gf/net/gtrace"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/xhyonline/gf16/internal/utils"
+	"github.com/xhyonline/gf16/net/ghttp/internal/httputil"
+	"github.com/xhyonline/gf16/net/gtrace"
+	"github.com/xhyonline/gf16/text/gstr"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
@@ -24,7 +23,7 @@ import (
 )
 
 const (
-	tracingInstrumentName           = "github.com/gogf/gf/net/ghttp.Client"
+	tracingInstrumentName           = "github.com/xhyonline/gf16/net/ghttp.Client"
 	tracingAttrHttpAddressRemote    = "http.address.remote"
 	tracingAttrHttpAddressLocal     = "http.address.local"
 	tracingAttrHttpDnsStart         = "http.dns.start"

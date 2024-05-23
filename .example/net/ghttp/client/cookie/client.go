@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/net/ghttp"
-	"github.com/gogf/gf/os/glog"
+	"github.com/xhyonline/gf16/net/ghttp"
+	"github.com/xhyonline/gf16/os/glog"
 )
 
 func main() {

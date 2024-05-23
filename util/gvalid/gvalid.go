@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 // Package gvalid implements powerful and useful data/form validation functionality.
 package gvalid
@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gogf/gf/text/gregex"
+	"github.com/xhyonline/gf16/text/gregex"
 )
 
 // Refer to Laravel validation: https://laravel.com/docs/5.5/validation#available-validation-rules

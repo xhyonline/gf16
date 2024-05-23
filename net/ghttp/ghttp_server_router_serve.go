@@ -2,17 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package ghttp
 
 import (
 	"fmt"
-	"github.com/gogf/gf/internal/json"
+	"github.com/xhyonline/gf16/internal/json"
 	"strings"
 
-	"github.com/gogf/gf/container/glist"
-	"github.com/gogf/gf/text/gregex"
+	"github.com/xhyonline/gf16/container/glist"
+	"github.com/xhyonline/gf16/text/gregex"
 )
 
 // handlerCacheItem is an item just for internal router searching cache.

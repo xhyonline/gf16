@@ -2,13 +2,13 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package ghttp
 
 import (
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/net/ghttp/internal/client"
+	"github.com/xhyonline/gf16/container/gvar"
+	"github.com/xhyonline/gf16/net/ghttp/internal/client"
 )
 
 type (

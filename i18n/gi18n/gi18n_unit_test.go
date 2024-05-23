@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gi18n_test
 
@@ -10,21 +10,21 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gogf/gf/os/gres"
+	"github.com/xhyonline/gf16/os/gres"
 
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/xhyonline/gf16/os/gtime"
+	"github.com/xhyonline/gf16/util/gconv"
 
-	"github.com/gogf/gf/frame/g"
+	"github.com/xhyonline/gf16/frame/g"
 
-	"github.com/gogf/gf/i18n/gi18n"
+	"github.com/xhyonline/gf16/i18n/gi18n"
 
-	"github.com/gogf/gf/debug/gdebug"
-	"github.com/gogf/gf/os/gfile"
+	"github.com/xhyonline/gf16/debug/gdebug"
+	"github.com/xhyonline/gf16/os/gfile"
 
-	"github.com/gogf/gf/test/gtest"
+	"github.com/xhyonline/gf16/test/gtest"
 
-	_ "github.com/gogf/gf/os/gres/testdata/data"
+	_ "github.com/xhyonline/gf16/os/gres/testdata/data"
 )
 
 func Test_Basic(t *testing.T) {

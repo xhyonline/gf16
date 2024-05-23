@@ -2,13 +2,13 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gvalid
 
 import (
 	"context"
-	"github.com/gogf/gf/i18n/gi18n"
+	"github.com/xhyonline/gf16/i18n/gi18n"
 )
 
 // Validator is the validation manager for chaining operations.

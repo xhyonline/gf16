@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 //
 // Note:
 // 1. It needs manually import: _ "github.com/denisenkom/go-mssqldb"
@@ -18,12 +18,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gogf/gf/errors/gerror"
+	"github.com/xhyonline/gf16/errors/gerror"
 
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/xhyonline/gf16/internal/intlog"
+	"github.com/xhyonline/gf16/text/gstr"
 
-	"github.com/gogf/gf/text/gregex"
+	"github.com/xhyonline/gf16/text/gregex"
 )
 
 // DriverMssql is the driver for SQL server database.

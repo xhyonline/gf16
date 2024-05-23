@@ -2,15 +2,15 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gins_test
 
 import (
-	"github.com/gogf/gf/frame/gins"
+	"github.com/xhyonline/gf16/frame/gins"
 	"testing"
 
-	"github.com/gogf/gf/test/gtest"
+	"github.com/xhyonline/gf16/test/gtest"
 )
 
 func Test_SetGet(t *testing.T) {

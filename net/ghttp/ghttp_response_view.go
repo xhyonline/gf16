@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 //
 
 package ghttp
 
 import (
-	"github.com/gogf/gf/os/gcfg"
-	"github.com/gogf/gf/os/gview"
-	"github.com/gogf/gf/util/gmode"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/xhyonline/gf16/os/gcfg"
+	"github.com/xhyonline/gf16/os/gview"
+	"github.com/xhyonline/gf16/util/gmode"
+	"github.com/xhyonline/gf16/util/gutil"
 )
 
 // WriteTpl parses and responses given template file.

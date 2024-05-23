@@ -2,20 +2,20 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package glog
 
 import (
 	"fmt"
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/encoding/gcompress"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gmlock"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/os/gtimer"
-	"github.com/gogf/gf/text/gregex"
+	"github.com/xhyonline/gf16/container/garray"
+	"github.com/xhyonline/gf16/encoding/gcompress"
+	"github.com/xhyonline/gf16/internal/intlog"
+	"github.com/xhyonline/gf16/os/gfile"
+	"github.com/xhyonline/gf16/os/gmlock"
+	"github.com/xhyonline/gf16/os/gtime"
+	"github.com/xhyonline/gf16/os/gtimer"
+	"github.com/xhyonline/gf16/text/gregex"
 	"time"
 )
 

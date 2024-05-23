@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/encoding/gbinary"
-	"github.com/gogf/gf/os/glog"
+	"github.com/xhyonline/gf16/encoding/gbinary"
+	"github.com/xhyonline/gf16/os/glog"
 )
 
 func main() {

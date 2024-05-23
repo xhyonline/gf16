@@ -2,14 +2,14 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gtime_test
 
 import (
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/xhyonline/gf16/internal/json"
+	"github.com/xhyonline/gf16/os/gtime"
+	"github.com/xhyonline/gf16/test/gtest"
 	"testing"
 )
 

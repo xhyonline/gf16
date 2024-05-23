@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gogf/gf/container/glist"
-	"github.com/gogf/gf/frame/g"
+	"github.com/xhyonline/gf16/container/glist"
+	"github.com/xhyonline/gf16/frame/g"
 )
 
 func main() {

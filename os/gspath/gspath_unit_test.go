@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gspath_test
 
 import (
 	"testing"
 
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gspath"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/xhyonline/gf16/os/gfile"
+	"github.com/xhyonline/gf16/os/gspath"
+	"github.com/xhyonline/gf16/test/gtest"
 )
 
 func TestSPath_Api(t *testing.T) {

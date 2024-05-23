@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package client
 
@@ -10,9 +10,9 @@ import (
 	"context"
 	"crypto/tls"
 	"fmt"
-	"github.com/gogf/gf/internal/utils"
-	"github.com/gogf/gf/net/gtrace"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/xhyonline/gf16/internal/utils"
+	"github.com/xhyonline/gf16/net/gtrace"
+	"github.com/xhyonline/gf16/text/gstr"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"

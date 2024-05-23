@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/util/gutil"
+	"github.com/xhyonline/gf16/util/gutil"
 )
 
 func main() {

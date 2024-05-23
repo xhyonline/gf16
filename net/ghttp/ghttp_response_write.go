@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 //
 
 package ghttp
 
 import (
 	"fmt"
-	"github.com/gogf/gf/internal/json"
+	"github.com/xhyonline/gf16/internal/json"
 	"net/http"
 
-	"github.com/gogf/gf/encoding/gparser"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/xhyonline/gf16/encoding/gparser"
+	"github.com/xhyonline/gf16/util/gconv"
 )
 
 // Write writes <content> to the response buffer.

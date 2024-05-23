@@ -2,20 +2,20 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gvalid_test
 
 import (
 	"context"
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/os/gtime"
+	"github.com/xhyonline/gf16/container/gvar"
+	"github.com/xhyonline/gf16/os/gtime"
 	"testing"
 
-	"github.com/gogf/gf/frame/g"
+	"github.com/xhyonline/gf16/frame/g"
 
-	"github.com/gogf/gf/test/gtest"
-	"github.com/gogf/gf/util/gvalid"
+	"github.com/xhyonline/gf16/test/gtest"
+	"github.com/xhyonline/gf16/util/gvalid"
 )
 
 func Test_CheckStruct(t *testing.T) {

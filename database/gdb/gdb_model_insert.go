@@ -2,21 +2,21 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gdb
 
 import (
 	"database/sql"
 	"fmt"
-	"github.com/gogf/gf/container/gset"
+	"github.com/xhyonline/gf16/container/gset"
 	"reflect"
 
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/xhyonline/gf16/errors/gerror"
+	"github.com/xhyonline/gf16/os/gtime"
+	"github.com/xhyonline/gf16/text/gstr"
+	"github.com/xhyonline/gf16/util/gconv"
+	"github.com/xhyonline/gf16/util/gutil"
 )
 
 // Batch sets the batch operation number for the model.
@@ -112,12 +112,14 @@ func (m *Model) Data(data ...interface{}) *Model {
 // Example:
 // OnDuplicate("nickname, age")
 // OnDuplicate("nickname", "age")
-// OnDuplicate(g.Map{
-//     "nickname": gdb.Raw("CONCAT('name_', VALUES(`nickname`))"),
-// })
-// OnDuplicate(g.Map{
-//     "nickname": "passport",
-// })
+//
+//	OnDuplicate(g.Map{
+//	    "nickname": gdb.Raw("CONCAT('name_', VALUES(`nickname`))"),
+//	})
+//
+//	OnDuplicate(g.Map{
+//	    "nickname": "passport",
+//	})
 func (m *Model) OnDuplicate(onDuplicate ...interface{}) *Model {
 	model := m.getModel()
 	if len(onDuplicate) > 1 {
@@ -134,10 +136,11 @@ func (m *Model) OnDuplicate(onDuplicate ...interface{}) *Model {
 // Example:
 // OnDuplicateEx("passport, password")
 // OnDuplicateEx("passport", "password")
-// OnDuplicateEx(g.Map{
-//     "passport": "",
-//     "password": "",
-// })
+//
+//	OnDuplicateEx(g.Map{
+//	    "passport": "",
+//	    "password": "",
+//	})
 func (m *Model) OnDuplicateEx(onDuplicateEx ...interface{}) *Model {
 	model := m.getModel()
 	if len(onDuplicateEx) > 1 {

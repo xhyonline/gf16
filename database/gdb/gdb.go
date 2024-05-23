@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 // Package gdb provides ORM features for popular relationship databases.
 package gdb
@@ -13,18 +13,18 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/os/gcmd"
+	"github.com/xhyonline/gf16/errors/gerror"
+	"github.com/xhyonline/gf16/os/gcmd"
 
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/internal/intlog"
+	"github.com/xhyonline/gf16/container/gvar"
+	"github.com/xhyonline/gf16/internal/intlog"
 
-	"github.com/gogf/gf/os/glog"
+	"github.com/xhyonline/gf16/os/glog"
 
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/os/gcache"
-	"github.com/gogf/gf/util/grand"
+	"github.com/xhyonline/gf16/container/gmap"
+	"github.com/xhyonline/gf16/container/gtype"
+	"github.com/xhyonline/gf16/os/gcache"
+	"github.com/xhyonline/gf16/util/grand"
 )
 
 // DB defines the interfaces for ORM operations.

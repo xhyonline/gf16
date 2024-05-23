@@ -2,30 +2,30 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 // Package gtimer implements timer for interval/delayed jobs running and management.
 //
 // This package is designed for management for millions of timing jobs. The differences
 // between gtimer and gcron are as follows:
-// 1. package gcron is implemented based on package gtimer.
-// 2. gtimer is designed for high performance and for millions of timing jobs.
-// 3. gcron supports configuration pattern grammar like linux crontab, which is more manually
-//    readable.
-// 4. gtimer's benchmark OP is measured in nanoseconds, and gcron's benchmark OP is measured
-//    in microseconds.
+//  1. package gcron is implemented based on package gtimer.
+//  2. gtimer is designed for high performance and for millions of timing jobs.
+//  3. gcron supports configuration pattern grammar like linux crontab, which is more manually
+//     readable.
+//  4. gtimer's benchmark OP is measured in nanoseconds, and gcron's benchmark OP is measured
+//     in microseconds.
 //
 // ALSO VERY NOTE the common delay of the timer: https://github.com/golang/go/issues/14410
 package gtimer
 
 import (
 	"fmt"
-	"github.com/gogf/gf/container/gtype"
+	"github.com/xhyonline/gf16/container/gtype"
 	"math"
 	"sync"
 	"time"
 
-	"github.com/gogf/gf/os/gcmd"
+	"github.com/xhyonline/gf16/os/gcmd"
 )
 
 // Timer is the timer manager, which uses ticks to calculate the timing interval.

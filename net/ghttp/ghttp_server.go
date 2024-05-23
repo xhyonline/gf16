@@ -2,34 +2,34 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package ghttp
 
 import (
 	"bytes"
-	"github.com/gogf/gf/debug/gdebug"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/intlog"
+	"github.com/xhyonline/gf16/debug/gdebug"
+	"github.com/xhyonline/gf16/errors/gerror"
+	"github.com/xhyonline/gf16/internal/intlog"
 	"net/http"
 	"os"
 	"runtime"
 	"strings"
 	"time"
 
-	"github.com/gogf/gf/os/gsession"
+	"github.com/xhyonline/gf16/os/gsession"
 
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/os/gcache"
-	"github.com/gogf/gf/os/genv"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gproc"
-	"github.com/gogf/gf/os/gtimer"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/util/gconv"
 	"github.com/olekukonko/tablewriter"
+	"github.com/xhyonline/gf16/container/garray"
+	"github.com/xhyonline/gf16/container/gtype"
+	"github.com/xhyonline/gf16/os/gcache"
+	"github.com/xhyonline/gf16/os/genv"
+	"github.com/xhyonline/gf16/os/gfile"
+	"github.com/xhyonline/gf16/os/glog"
+	"github.com/xhyonline/gf16/os/gproc"
+	"github.com/xhyonline/gf16/os/gtimer"
+	"github.com/xhyonline/gf16/text/gregex"
+	"github.com/xhyonline/gf16/util/gconv"
 )
 
 func init() {

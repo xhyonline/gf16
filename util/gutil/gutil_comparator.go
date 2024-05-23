@@ -2,22 +2,23 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/xhyonline/gf16.
 
 package gutil
 
 import (
 	"strings"
 
-	"github.com/gogf/gf/util/gconv"
+	"github.com/xhyonline/gf16/util/gconv"
 )
 
 // Comparator is a function that compare a and b, and returns the result as int.
 //
 // Should return a number:
-//    negative , if a < b
-//    zero     , if a == b
-//    positive , if a > b
+//
+//	negative , if a < b
+//	zero     , if a == b
+//	positive , if a > b
 type Comparator func(a, b interface{}) int
 
 // ComparatorString provides a fast comparison on strings.

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gogf/gf/os/gfsnotify"
-	"github.com/gogf/gf/os/glog"
+	"github.com/xhyonline/gf16/os/gfsnotify"
+	"github.com/xhyonline/gf16/os/glog"
 )
 
 // 对同一个文件多次Add是否超过系统inotify限制
